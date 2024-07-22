@@ -8831,3 +8831,2734 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1721019265.4028
     'REQUEST_TIME' => 1721019265
 ]
+2024-07-19 10:32:18 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 10:32:17 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699de3e69c7a'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721361737
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57485'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699de3e69c7a'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699de3e69c7a'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721359937.1808
+    'REQUEST_TIME' => 1721359937
+]
+2024-07-19 10:32:24 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 10:32:23 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699de44a8abf'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721361743
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57516'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699de44a8abf'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699de44a8abf'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721359943.349
+    'REQUEST_TIME' => 1721359943
+]
+2024-07-19 10:32:33 [::1][41][p81pr1pr12mv5j28omouja98bc][error][Error] Error: Call to undefined function app\controllers\mcrypt_encrypt() in C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php:80
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php(131): app\controllers\VerificationController->calcPassword('SN238', '00000000', '000000000000000', 'X990', '3.0.4')
+#1 [internal function]: app\controllers\VerificationController->actionIndex()
+#2 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('verification/in...', Array)
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2024-07-19 10:32:32 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'UXBHQagbR7Sbnr3yZGoHpKBfVMyCej-8B22fWFXG8IdgQQYizFgR19So_KQeL2vR1wkhh-seRs9GLvQOYvbD7Q=='
+    'Verification' => [
+        'csi' => 'SN238'
+        'edcType' => 'X990'
+        'appVersion' => '3.0.4'
+        'terminalFound' => '0'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721361752
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57539'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/verification/index'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/verification/index'
+    'PHP_SELF' => '/index.php/verification/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '676'
+    'HTTP_CONTENT_LENGTH' => '676'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_X_CSRF_TOKEN' => 'UXBHQagbR7Sbnr3yZGoHpKBfVMyCej-8B22fWFXG8IdgQQYizFgR19So_KQeL2vR1wkhh-seRs9GLvQOYvbD7Q=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryqmZCb9LXAlLtAk5F'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryqmZCb9LXAlLtAk5F'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721359952.3905
+    'REQUEST_TIME' => 1721359952
+]
+2024-07-19 10:33:47 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 10:33:46 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699de986073d'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721361827
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57627'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699de986073d'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699de986073d'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721360026.5312
+    'REQUEST_TIME' => 1721360026
+]
+2024-07-19 10:34:20 [::1][41][p81pr1pr12mv5j28omouja98bc][error][Error] Error: Call to undefined function app\controllers\mcrypt_encrypt() in C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php:80
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php(131): app\controllers\VerificationController->calcPassword('SN238', '00000000', '000000000000000', 'X990', '3.0.4')
+#1 [internal function]: app\controllers\VerificationController->actionIndex()
+#2 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('verification/in...', Array)
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2024-07-19 10:34:18 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'kPdn67UrwwfsWJn6oI6JxdTf1efdbAth7MkOzGkU5g6hxiaI0WiVZKNu2Kzay-Wwo4mgrLQIchKtimWaXiTVZA=='
+    'Verification' => [
+        'csi' => 'SN238'
+        'edcType' => 'X990'
+        'appVersion' => '3.0.4'
+        'terminalFound' => '0'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721361859
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57691'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/verification/index'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/verification/index'
+    'PHP_SELF' => '/index.php/verification/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '676'
+    'HTTP_CONTENT_LENGTH' => '676'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_X_CSRF_TOKEN' => 'kPdn67UrwwfsWJn6oI6JxdTf1efdbAth7MkOzGkU5g6hxiaI0WiVZKNu2Kzay-Wwo4mgrLQIchKtimWaXiTVZA=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary6u2hJiz9AnIENBte'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary6u2hJiz9AnIENBte'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721360058.7752
+    'REQUEST_TIME' => 1721360058
+]
+2024-07-19 10:45:16 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 10:45:15 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699e146bd269'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721362516
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58422'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699e146bd269'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699e146bd269'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721360715.5748
+    'REQUEST_TIME' => 1721360715
+]
+2024-07-19 10:45:44 [::1][41][p81pr1pr12mv5j28omouja98bc][error][Error] Error: Call to undefined function app\controllers\mcrypt_encrypt() in C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php:80
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php(131): app\controllers\VerificationController->calcPassword('SN238', '00000000', '000000000000000', 'X990', '3.0.4')
+#1 [internal function]: app\controllers\VerificationController->actionIndex()
+#2 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('verification/in...', Array)
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2024-07-19 10:45:42 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'ZdP25SSk5XA_NXxsL09hDYumCb8VBGBG16lNiZPjGvdU4reGQOezE3ADPTpVCg14_PB89HxgGTWW6ibfpNMpnQ=='
+    'Verification' => [
+        'csi' => 'SN238'
+        'edcType' => 'X990'
+        'appVersion' => '3.0.4'
+        'terminalFound' => '0'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721362543
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58464'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/verification/index'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/verification/index'
+    'PHP_SELF' => '/index.php/verification/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '676'
+    'HTTP_CONTENT_LENGTH' => '676'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_X_CSRF_TOKEN' => 'ZdP25SSk5XA_NXxsL09hDYumCb8VBGBG16lNiZPjGvdU4reGQOezE3ADPTpVCg14_PB89HxgGTWW6ibfpNMpnQ=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryzR294qYntjoA9Bko'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryzR294qYntjoA9Bko'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721360742.8509
+    'REQUEST_TIME' => 1721360742
+]
+2024-07-19 11:05:32 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:05:31 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699e6095f8e4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721363731
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59608'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699e6095f8e4'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699e6095f8e4'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721361931.4122
+    'REQUEST_TIME' => 1721361931
+]
+2024-07-19 11:06:03 [::1][41][p81pr1pr12mv5j28omouja98bc][error][Error] Error: Call to undefined function app\controllers\mcrypt_encrypt() in C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php:80
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php(131): app\controllers\VerificationController->calcPassword('SN238', '00000000', '000000000000000', 'X990', '3.0.4')
+#1 [internal function]: app\controllers\VerificationController->actionIndex()
+#2 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('verification/in...', Array)
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2024-07-19 11:06:02 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'I7vcuDS8xx5PBtrk9ILuhnUQ-qI-uZBo3gdcMGbMiq8Sip3bUP-RfQAwm7KOx4LzAkaP6Vfd6RufRDdmUfy5xQ=='
+    'Verification' => [
+        'csi' => 'SN238'
+        'edcType' => 'X990'
+        'appVersion' => '3.0.4'
+        'terminalFound' => '0'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721363762
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59686'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/verification/index'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/verification/index'
+    'PHP_SELF' => '/index.php/verification/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '676'
+    'HTTP_CONTENT_LENGTH' => '676'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_X_CSRF_TOKEN' => 'I7vcuDS8xx5PBtrk9ILuhnUQ-qI-uZBo3gdcMGbMiq8Sip3bUP-RfQAwm7KOx4LzAkaP6Vfd6RufRDdmUfy5xQ=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary8TPLFPmqjKgJ6Hsj'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary8TPLFPmqjKgJ6Hsj'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721361962.0687
+    'REQUEST_TIME' => 1721361962
+]
+2024-07-19 11:06:12 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:06:10 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699e630d7e1d'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721363771
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59713'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699e630d7e1d'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699e630d7e1d'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721361970.5826
+    'REQUEST_TIME' => 1721361970
+]
+2024-07-19 11:07:17 [::1][41][p81pr1pr12mv5j28omouja98bc][error][Error] Error: Call to undefined function app\controllers\mcrypt_encrypt() in C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php:80
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php(131): app\controllers\VerificationController->calcPassword('SN238', '00000000', '000000000000000', 'X990', '3.0.4')
+#1 [internal function]: app\controllers\VerificationController->actionIndex()
+#2 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('verification/in...', Array)
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2024-07-19 11:07:15 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '5Zb7mG9XEMHWFaiGbyBysBgXKXXW4cuJd5n0iIjmyXPUp7r7CxRGopkj6dAVZR7Fb0FcPr-Fsvo22p_ev9b6GQ=='
+    'Verification' => [
+        'csi' => 'SN238'
+        'edcType' => 'X990'
+        'appVersion' => '3.0.4'
+        'terminalFound' => '0'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721363836
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60006'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/verification/index'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/verification/index'
+    'PHP_SELF' => '/index.php/verification/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '676'
+    'HTTP_CONTENT_LENGTH' => '676'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_X_CSRF_TOKEN' => '5Zb7mG9XEMHWFaiGbyBysBgXKXXW4cuJd5n0iIjmyXPUp7r7CxRGopkj6dAVZR7Fb0FcPr-Fsvo22p_ev9b6GQ=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryrXjne8JfiDu7BhQq'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryrXjne8JfiDu7BhQq'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721362035.8826
+    'REQUEST_TIME' => 1721362035
+]
+2024-07-19 11:17:48 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:17:47 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699e8e8e05d6'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721364467
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60579'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699e8e8e05d6'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699e8e8e05d6'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721362667.0042
+    'REQUEST_TIME' => 1721362667
+]
+2024-07-19 11:17:55 [::1][41][p81pr1pr12mv5j28omouja98bc][error][Error] Error: Call to undefined function app\controllers\mcrypt_encrypt() in C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php:80
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php(131): app\controllers\VerificationController->calcPassword('SN238', '00000000', '000000000000000', 'X990', '3.0.4')
+#1 [internal function]: app\controllers\VerificationController->actionIndex()
+#2 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('verification/in...', Array)
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2024-07-19 11:17:54 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'L4lgHvYdqF4-UMO7jQJ71_NU7xc2OiRK6T3uCKClf_keuCF9kl7-PXFmgu33RxeihAKaXF9eXTmofoVel5VMkw=='
+    'Verification' => [
+        'csi' => 'SN238'
+        'edcType' => 'X990'
+        'appVersion' => '3.0.4'
+        'terminalFound' => '0'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721364474
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60606'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/verification/index'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/verification/index'
+    'PHP_SELF' => '/index.php/verification/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '676'
+    'HTTP_CONTENT_LENGTH' => '676'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_X_CSRF_TOKEN' => 'L4lgHvYdqF4-UMO7jQJ71_NU7xc2OiRK6T3uCKClf_keuCF9kl7-PXFmgu33RxeihAKaXF9eXTmofoVel5VMkw=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryBBOWyVEI3vj5iADg'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryBBOWyVEI3vj5iADg'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721362674.4063
+    'REQUEST_TIME' => 1721362674
+]
+2024-07-19 11:18:45 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:18:44 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699e922b9d0f'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721364524
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60669'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699e922b9d0f'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699e922b9d0f'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721362724.1028
+    'REQUEST_TIME' => 1721362724
+]
+2024-07-19 11:18:52 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:18:51 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699e9291d5df'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721364531
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60699'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699e9291d5df'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699e9291d5df'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721362731.1184
+    'REQUEST_TIME' => 1721362731
+]
+2024-07-19 11:19:58 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:19:56 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699e96a91287'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721364597
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60794'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699e96a91287'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699e96a91287'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721362796.769
+    'REQUEST_TIME' => 1721362796
+]
+2024-07-19 11:40:46 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:40:44 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699ee4ae31c3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721365845
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62068'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699ee4ae31c3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699ee4ae31c3'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721364044.7949
+    'REQUEST_TIME' => 1721364044
+]
+2024-07-19 11:40:51 [::1][41][p81pr1pr12mv5j28omouja98bc][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:40:49 [::1][41][p81pr1pr12mv5j28omouja98bc][info][application] $_GET = [
+    'tag' => '6699ee4fce2db'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'p81pr1pr12mv5j28omouja98bc'
+    '_csrf' => '59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"11AcdCVcO6AVzEluwVuKidysACkV703j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rqvviof'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721365850
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62098'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699ee4fce2db'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699ee4fce2db'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=p81pr1pr12mv5j28omouja98bc; _csrf=59abbfa187d7e3b110d5fd4e7ebefc06fec56c1f47a83e2e85d5b185b176ec0ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2211AcdCVcO6AVzEluwVuKidysACkV703j%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721364049.8364
+    'REQUEST_TIME' => 1721364049
+]
+2024-07-19 11:47:07 [::1][40][jq8f4j9sc9jg06bqk0d4lv7qfu][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:47:06 [::1][40][jq8f4j9sc9jg06bqk0d4lv7qfu][info][application] $_GET = [
+    'tag' => '6699efc888c16'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'jq8f4j9sc9jg06bqk0d4lv7qfu'
+    '_csrf' => '708a932869f8840cb205226c41f1b32edadc7ae5474518b5f4840ba2c0a463f3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KO4Q4ro2nMhrWt9WArmkGC7umCeRjzNL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gugenoz'
+    '__captcha/site/captchacount' => 1
+    'user' => 40
+    '__authKey' => 'OBBWW8P387i5q_KZGiq4OP-9nZrdUUf2'
+    '__expire' => 1721366226
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62320'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699efc888c16'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699efc888c16'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=jq8f4j9sc9jg06bqk0d4lv7qfu; _csrf=708a932869f8840cb205226c41f1b32edadc7ae5474518b5f4840ba2c0a463f3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KO4Q4ro2nMhrWt9WArmkGC7umCeRjzNL%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721364426.2409
+    'REQUEST_TIME' => 1721364426
+]
+2024-07-19 11:47:11 [::1][40][jq8f4j9sc9jg06bqk0d4lv7qfu][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:47:10 [::1][40][jq8f4j9sc9jg06bqk0d4lv7qfu][info][application] $_GET = [
+    'tag' => '6699efcd34764'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'jq8f4j9sc9jg06bqk0d4lv7qfu'
+    '_csrf' => '708a932869f8840cb205226c41f1b32edadc7ae5474518b5f4840ba2c0a463f3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KO4Q4ro2nMhrWt9WArmkGC7umCeRjzNL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'gugenoz'
+    '__captcha/site/captchacount' => 1
+    'user' => 40
+    '__authKey' => 'OBBWW8P387i5q_KZGiq4OP-9nZrdUUf2'
+    '__expire' => 1721366231
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62356'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699efcd34764'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699efcd34764'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/veristore/terminal'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=jq8f4j9sc9jg06bqk0d4lv7qfu; _csrf=708a932869f8840cb205226c41f1b32edadc7ae5474518b5f4840ba2c0a463f3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KO4Q4ro2nMhrWt9WArmkGC7umCeRjzNL%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721364430.5054
+    'REQUEST_TIME' => 1721364430
+]
+2024-07-19 11:47:43 [::1][41][gmpfe76pfk3phhsb5hb63j0ood][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:47:41 [::1][41][gmpfe76pfk3phhsb5hb63j0ood][info][application] $_GET = [
+    'tag' => '6699efec53891'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'gmpfe76pfk3phhsb5hb63j0ood'
+    '_csrf' => '760d0ae04cf4c49006e6646a7badfb71b6f0e7839015ced523070945670dc098a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rFv6CaP1Bv66kmWDyTzL3qUO8KFaqaP8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'dakuuk'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721366262
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62420'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699efec53891'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699efec53891'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=gmpfe76pfk3phhsb5hb63j0ood; _csrf=760d0ae04cf4c49006e6646a7badfb71b6f0e7839015ced523070945670dc098a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rFv6CaP1Bv66kmWDyTzL3qUO8KFaqaP8%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721364461.9343
+    'REQUEST_TIME' => 1721364461
+]
+2024-07-19 11:47:48 [::1][41][gmpfe76pfk3phhsb5hb63j0ood][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:47:47 [::1][41][gmpfe76pfk3phhsb5hb63j0ood][info][application] $_GET = [
+    'tag' => '6699eff0d0ad4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'gmpfe76pfk3phhsb5hb63j0ood'
+    '_csrf' => '760d0ae04cf4c49006e6646a7badfb71b6f0e7839015ced523070945670dc098a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rFv6CaP1Bv66kmWDyTzL3qUO8KFaqaP8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'dakuuk'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721366267
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62446'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699eff0d0ad4'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699eff0d0ad4'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/terminal/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=gmpfe76pfk3phhsb5hb63j0ood; _csrf=760d0ae04cf4c49006e6646a7badfb71b6f0e7839015ced523070945670dc098a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rFv6CaP1Bv66kmWDyTzL3qUO8KFaqaP8%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721364467.1345
+    'REQUEST_TIME' => 1721364467
+]
+2024-07-19 11:47:53 [::1][41][gmpfe76pfk3phhsb5hb63j0ood][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:47:52 [::1][41][gmpfe76pfk3phhsb5hb63j0ood][info][application] $_GET = [
+    'tag' => '6699eff6319d2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'gmpfe76pfk3phhsb5hb63j0ood'
+    '_csrf' => '760d0ae04cf4c49006e6646a7badfb71b6f0e7839015ced523070945670dc098a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rFv6CaP1Bv66kmWDyTzL3qUO8KFaqaP8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'dakuuk'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721366272
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62471'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699eff6319d2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699eff6319d2'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=gmpfe76pfk3phhsb5hb63j0ood; _csrf=760d0ae04cf4c49006e6646a7badfb71b6f0e7839015ced523070945670dc098a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rFv6CaP1Bv66kmWDyTzL3qUO8KFaqaP8%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721364472.2066
+    'REQUEST_TIME' => 1721364472
+]
+2024-07-19 11:50:35 [::1][41][gmpfe76pfk3phhsb5hb63j0ood][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 11:50:33 [::1][41][gmpfe76pfk3phhsb5hb63j0ood][info][application] $_GET = [
+    'tag' => '6699f09774033'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'gmpfe76pfk3phhsb5hb63j0ood'
+    '_csrf' => '760d0ae04cf4c49006e6646a7badfb71b6f0e7839015ced523070945670dc098a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rFv6CaP1Bv66kmWDyTzL3qUO8KFaqaP8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'dakuuk'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721366434
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '62570'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=6699f09774033'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=6699f09774033'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=gmpfe76pfk3phhsb5hb63j0ood; _csrf=760d0ae04cf4c49006e6646a7badfb71b6f0e7839015ced523070945670dc098a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rFv6CaP1Bv66kmWDyTzL3qUO8KFaqaP8%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721364633.685
+    'REQUEST_TIME' => 1721364633
+]
+2024-07-19 13:07:59 [::1][41][scdmrmb4tpn8sngnfvmdtijg7e][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 13:07:58 [::1][41][scdmrmb4tpn8sngnfvmdtijg7e][info][application] $_GET = [
+    'tag' => '669a02bc5e1c9'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'scdmrmb4tpn8sngnfvmdtijg7e'
+    '_csrf' => 'a97e780bafc1e433366e0929534f0d91bd129833a7f5e24bae75c1622eca4d40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xwhIT_F2AD0wpHvuPKncFMs-bcCHvwsS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kgkudt'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721371078
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64495'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a02bc5e1c9'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a02bc5e1c9'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=scdmrmb4tpn8sngnfvmdtijg7e; _csrf=a97e780bafc1e433366e0929534f0d91bd129833a7f5e24bae75c1622eca4d40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xwhIT_F2AD0wpHvuPKncFMs-bcCHvwsS%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721369278.1905
+    'REQUEST_TIME' => 1721369278
+]
+2024-07-19 13:08:05 [::1][41][scdmrmb4tpn8sngnfvmdtijg7e][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 13:08:03 [::1][41][scdmrmb4tpn8sngnfvmdtijg7e][info][application] $_GET = [
+    'tag' => '669a02c193d9e'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'scdmrmb4tpn8sngnfvmdtijg7e'
+    '_csrf' => 'a97e780bafc1e433366e0929534f0d91bd129833a7f5e24bae75c1622eca4d40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xwhIT_F2AD0wpHvuPKncFMs-bcCHvwsS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kgkudt'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721371084
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64524'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a02c193d9e'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a02c193d9e'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=scdmrmb4tpn8sngnfvmdtijg7e; _csrf=a97e780bafc1e433366e0929534f0d91bd129833a7f5e24bae75c1622eca4d40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xwhIT_F2AD0wpHvuPKncFMs-bcCHvwsS%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721369283.6264
+    'REQUEST_TIME' => 1721369283
+]
+2024-07-19 13:22:02 [::1][41][scdmrmb4tpn8sngnfvmdtijg7e][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 13:22:00 [::1][41][scdmrmb4tpn8sngnfvmdtijg7e][info][application] $_GET = [
+    'tag' => '669a0606834c9'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'scdmrmb4tpn8sngnfvmdtijg7e'
+    '_csrf' => 'a97e780bafc1e433366e0929534f0d91bd129833a7f5e24bae75c1622eca4d40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xwhIT_F2AD0wpHvuPKncFMs-bcCHvwsS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kgkudt'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721371921
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64905'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a0606834c9'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a0606834c9'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=scdmrmb4tpn8sngnfvmdtijg7e; _csrf=a97e780bafc1e433366e0929534f0d91bd129833a7f5e24bae75c1622eca4d40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xwhIT_F2AD0wpHvuPKncFMs-bcCHvwsS%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721370120.6594
+    'REQUEST_TIME' => 1721370120
+]
+2024-07-19 13:22:43 [::1][41][scdmrmb4tpn8sngnfvmdtijg7e][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 13:22:41 [::1][41][scdmrmb4tpn8sngnfvmdtijg7e][info][application] $_GET = [
+    'tag' => '669a062fc9562'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'scdmrmb4tpn8sngnfvmdtijg7e'
+    '_csrf' => 'a97e780bafc1e433366e0929534f0d91bd129833a7f5e24bae75c1622eca4d40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xwhIT_F2AD0wpHvuPKncFMs-bcCHvwsS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kgkudt'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721371962
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64966'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a062fc9562'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a062fc9562'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=scdmrmb4tpn8sngnfvmdtijg7e; _csrf=a97e780bafc1e433366e0929534f0d91bd129833a7f5e24bae75c1622eca4d40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xwhIT_F2AD0wpHvuPKncFMs-bcCHvwsS%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721370161.5143
+    'REQUEST_TIME' => 1721370161
+]
+2024-07-19 13:31:19 [::1][41][scdmrmb4tpn8sngnfvmdtijg7e][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 13:31:17 [::1][41][scdmrmb4tpn8sngnfvmdtijg7e][info][application] $_GET = [
+    'tag' => '669a0834a7b28'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'scdmrmb4tpn8sngnfvmdtijg7e'
+    '_csrf' => 'a97e780bafc1e433366e0929534f0d91bd129833a7f5e24bae75c1622eca4d40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xwhIT_F2AD0wpHvuPKncFMs-bcCHvwsS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kgkudt'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721372478
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '65296'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a0834a7b28'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a0834a7b28'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=scdmrmb4tpn8sngnfvmdtijg7e; _csrf=a97e780bafc1e433366e0929534f0d91bd129833a7f5e24bae75c1622eca4d40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xwhIT_F2AD0wpHvuPKncFMs-bcCHvwsS%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721370677.9968
+    'REQUEST_TIME' => 1721370677
+]
+2024-07-19 14:09:08 [::1][41][5u7ju408187rkld6tc0gd2sc2s][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 14:09:06 [::1][41][5u7ju408187rkld6tc0gd2sc2s][info][application] $_GET = [
+    'tag' => '669a11111495a'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => '5u7ju408187rkld6tc0gd2sc2s'
+    '_csrf' => 'fb8d2620db7b7e419c5637af31642420fc3d94a978278dd93bc25c3d5a463b6ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0UqhRBLynPs3F5HkKm_L4FQjfX4RluCT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'lihidi'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721374747
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51616'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a11111495a'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a11111495a'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=5u7ju408187rkld6tc0gd2sc2s; _csrf=fb8d2620db7b7e419c5637af31642420fc3d94a978278dd93bc25c3d5a463b6ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220UqhRBLynPs3F5HkKm_L4FQjfX4RluCT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721372946.8833
+    'REQUEST_TIME' => 1721372946
+]
+2024-07-19 14:09:12 [::1][41][5u7ju408187rkld6tc0gd2sc2s][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 14:09:11 [::1][41][5u7ju408187rkld6tc0gd2sc2s][info][application] $_GET = [
+    'tag' => '669a1115ad0a3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => '5u7ju408187rkld6tc0gd2sc2s'
+    '_csrf' => 'fb8d2620db7b7e419c5637af31642420fc3d94a978278dd93bc25c3d5a463b6ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0UqhRBLynPs3F5HkKm_L4FQjfX4RluCT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'lihidi'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721374752
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51645'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a1115ad0a3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a1115ad0a3'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=5u7ju408187rkld6tc0gd2sc2s; _csrf=fb8d2620db7b7e419c5637af31642420fc3d94a978278dd93bc25c3d5a463b6ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220UqhRBLynPs3F5HkKm_L4FQjfX4RluCT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721372951.6417
+    'REQUEST_TIME' => 1721372951
+]
+2024-07-19 14:09:24 [::1][41][5u7ju408187rkld6tc0gd2sc2s][error][yii\base\ErrorException:2] yii\base\ErrorException: hash() expects at most 3 parameters, 4 given in C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php:79
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'hash() expects ...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php(79): hash('sha256', '20240719', '20240721', true)
+#2 C:\xampp\htdocs\veristoreTools\controllers\VerificationController.php(131): app\controllers\VerificationController->calcPassword('TESTDEV1', 'ARIS0001', '000008770000001', 'X990', '3.0.3')
+#3 [internal function]: app\controllers\VerificationController->actionIndex()
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('verification/in...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 14:09:21 [::1][41][5u7ju408187rkld6tc0gd2sc2s][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'qvj6yUncGmexrJrIBxc_-KMRaPaF0OeKYsaNFpujMzGarYuhG55WHt_86ftBIneT6Hw3urGWtuAEnrlE99ZwZQ=='
+    'Verification' => [
+        'csi' => 'TESTDEV1'
+        'edcType' => 'X990'
+        'appVersion' => '3.0.3'
+        'terminalFound' => '0'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => '5u7ju408187rkld6tc0gd2sc2s'
+    '_csrf' => 'fb8d2620db7b7e419c5637af31642420fc3d94a978278dd93bc25c3d5a463b6ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0UqhRBLynPs3F5HkKm_L4FQjfX4RluCT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'lihidi'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721374762
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51677'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/verification/index'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/verification/index'
+    'PHP_SELF' => '/index.php/verification/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '679'
+    'HTTP_CONTENT_LENGTH' => '679'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_X_CSRF_TOKEN' => 'qvj6yUncGmexrJrIBxc_-KMRaPaF0OeKYsaNFpujMzGarYuhG55WHt_86ftBIneT6Hw3urGWtuAEnrlE99ZwZQ=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary3Qpc8TACZuDi3oQd'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary3Qpc8TACZuDi3oQd'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=5u7ju408187rkld6tc0gd2sc2s; _csrf=fb8d2620db7b7e419c5637af31642420fc3d94a978278dd93bc25c3d5a463b6ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220UqhRBLynPs3F5HkKm_L4FQjfX4RluCT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721372961.6408
+    'REQUEST_TIME' => 1721372961
+]
+2024-07-19 14:13:29 [::1][41][5u7ju408187rkld6tc0gd2sc2s][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 14:13:27 [::1][41][5u7ju408187rkld6tc0gd2sc2s][info][application] $_GET = [
+    'tag' => '669a1213a3a67'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => '5u7ju408187rkld6tc0gd2sc2s'
+    '_csrf' => 'fb8d2620db7b7e419c5637af31642420fc3d94a978278dd93bc25c3d5a463b6ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0UqhRBLynPs3F5HkKm_L4FQjfX4RluCT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'lihidi'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721375008
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52116'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a1213a3a67'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a1213a3a67'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=5u7ju408187rkld6tc0gd2sc2s; _csrf=fb8d2620db7b7e419c5637af31642420fc3d94a978278dd93bc25c3d5a463b6ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220UqhRBLynPs3F5HkKm_L4FQjfX4RluCT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721373207.8609
+    'REQUEST_TIME' => 1721373207
+]
+2024-07-19 14:39:36 [::1][41][5u7ju408187rkld6tc0gd2sc2s][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 14:39:36 [::1][41][5u7ju408187rkld6tc0gd2sc2s][info][application] $_GET = [
+    'tag' => '669a1838c1683'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => '5u7ju408187rkld6tc0gd2sc2s'
+    '_csrf' => 'fb8d2620db7b7e419c5637af31642420fc3d94a978278dd93bc25c3d5a463b6ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0UqhRBLynPs3F5HkKm_L4FQjfX4RluCT\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'lihidi'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721376576
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53759'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a1838c1683'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a1838c1683'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=5u7ju408187rkld6tc0gd2sc2s; _csrf=fb8d2620db7b7e419c5637af31642420fc3d94a978278dd93bc25c3d5a463b6ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220UqhRBLynPs3F5HkKm_L4FQjfX4RluCT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721374776.9256
+    'REQUEST_TIME' => 1721374776
+]
+2024-07-19 14:40:04 [::1][40][f76rbmhc0qss71mkdql1336o1q][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 14:40:04 [::1][40][f76rbmhc0qss71mkdql1336o1q][info][application] $_GET = [
+    'tag' => '669a1853eb4bf'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'f76rbmhc0qss71mkdql1336o1q'
+    '_csrf' => '78f944ab02e8c3b26823a3b7f826acb690801f9689bc7e5bee905d2f52c85677a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7hSJmFXGxlpNDfrzJcefov_w-H41ch2Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'teboxe'
+    '__captcha/site/captchacount' => 1
+    'user' => 40
+    '__authKey' => 'OBBWW8P387i5q_KZGiq4OP-9nZrdUUf2'
+    '__expire' => 1721376604
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53860'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a1853eb4bf'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a1853eb4bf'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=f76rbmhc0qss71mkdql1336o1q; _csrf=78f944ab02e8c3b26823a3b7f826acb690801f9689bc7e5bee905d2f52c85677a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227hSJmFXGxlpNDfrzJcefov_w-H41ch2Q%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721374804.1922
+    'REQUEST_TIME' => 1721374804
+]
+2024-07-19 14:40:05 [::1][40][f76rbmhc0qss71mkdql1336o1q][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 14:40:05 [::1][40][f76rbmhc0qss71mkdql1336o1q][info][application] $_GET = [
+    'tag' => '669a185587f22'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => 'f76rbmhc0qss71mkdql1336o1q'
+    '_csrf' => '78f944ab02e8c3b26823a3b7f826acb690801f9689bc7e5bee905d2f52c85677a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7hSJmFXGxlpNDfrzJcefov_w-H41ch2Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'teboxe'
+    '__captcha/site/captchacount' => 1
+    'user' => 40
+    '__authKey' => 'OBBWW8P387i5q_KZGiq4OP-9nZrdUUf2'
+    '__expire' => 1721376605
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53889'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a185587f22'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a185587f22'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/veristore/terminal'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=f76rbmhc0qss71mkdql1336o1q; _csrf=78f944ab02e8c3b26823a3b7f826acb690801f9689bc7e5bee905d2f52c85677a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227hSJmFXGxlpNDfrzJcefov_w-H41ch2Q%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721374805.8232
+    'REQUEST_TIME' => 1721374805
+]
+2024-07-19 14:40:39 [::1][41][70jiad40j6qiauav6ka2cpki0e][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 14:40:39 [::1][41][70jiad40j6qiauav6ka2cpki0e][info][application] $_GET = [
+    'tag' => '669a1877bf474'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => '70jiad40j6qiauav6ka2cpki0e'
+    '_csrf' => '899264c5ba6abe94beeb5adf6cecb58ddf4937186d030a7824acad4804a90538a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bX-u0BnFhKuYrrdKxSFNSMxKQKamO-JV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'aotalwe'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721376639
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53991'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a1877bf474'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a1877bf474'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=70jiad40j6qiauav6ka2cpki0e; _csrf=899264c5ba6abe94beeb5adf6cecb58ddf4937186d030a7824acad4804a90538a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bX-u0BnFhKuYrrdKxSFNSMxKQKamO-JV%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721374839.9047
+    'REQUEST_TIME' => 1721374839
+]
+2024-07-19 14:41:01 [::1][41][70jiad40j6qiauav6ka2cpki0e][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 14:41:01 [::1][41][70jiad40j6qiauav6ka2cpki0e][info][application] $_GET = [
+    'tag' => '669a188d57f18'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => '70jiad40j6qiauav6ka2cpki0e'
+    '_csrf' => '899264c5ba6abe94beeb5adf6cecb58ddf4937186d030a7824acad4804a90538a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bX-u0BnFhKuYrrdKxSFNSMxKQKamO-JV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'aotalwe'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721376661
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54038'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a188d57f18'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a188d57f18'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=70jiad40j6qiauav6ka2cpki0e; _csrf=899264c5ba6abe94beeb5adf6cecb58ddf4937186d030a7824acad4804a90538a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bX-u0BnFhKuYrrdKxSFNSMxKQKamO-JV%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721374861.4614
+    'REQUEST_TIME' => 1721374861
+]
+2024-07-19 15:08:05 [::1][41][70jiad40j6qiauav6ka2cpki0e][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to perform this action. in C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\xampp\htdocs\veristoreTools\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\ActionFilter.php(77): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Component.php(633): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\xampp\htdocs\veristoreTools\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\veristoreTools\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2024-07-19 15:08:05 [::1][41][70jiad40j6qiauav6ka2cpki0e][info][application] $_GET = [
+    'tag' => '669a1ee597637'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_veristore_tools_app' => '70jiad40j6qiauav6ka2cpki0e'
+    '_csrf' => '899264c5ba6abe94beeb5adf6cecb58ddf4937186d030a7824acad4804a90538a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bX-u0BnFhKuYrrdKxSFNSMxKQKamO-JV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'aotalwe'
+    '__captcha/site/captchacount' => 1
+    'user' => 41
+    '__authKey' => 'sY4QgmfQtrQ6kdrSJ4S2Ol3o6WN15VUl'
+    '__expire' => 1721378285
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\veristoreTools\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55592'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=669a1ee597637'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\veristoreTools\\web\\index.php'
+    'PATH_INFO' => '/debug/default/toolbar'
+    'PHP_SELF' => '/index.php/debug/default/toolbar'
+    'QUERY_STRING' => 'tag=669a1ee597637'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/verification/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_veristore_tools_app=70jiad40j6qiauav6ka2cpki0e; _csrf=899264c5ba6abe94beeb5adf6cecb58ddf4937186d030a7824acad4804a90538a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bX-u0BnFhKuYrrdKxSFNSMxKQKamO-JV%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1721376485.7535
+    'REQUEST_TIME' => 1721376485
+]
